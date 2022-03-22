@@ -1,0 +1,82 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement}
+@attribute Key_Run {1}
+@attribute Key_Fold {1,2,3,4,5,6,7,8,9,10}
+@attribute Key_Scheme {weka.classifiers.bayes.NaiveBayes}
+@attribute Key_Scheme_options {''}
+@attribute Key_Scheme_version_ID {5995231201785697655}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary string
+
+@data
+
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,1,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,70,50,0,58.333333,41.666667,0,0.537037,0.083333,0.288466,46.296289,96.155425,398.631371,28425.13202,-28026.500648,3.321928,236.8761,-233.554172,224.934823,1.874457,6771.212893,0.916667,11,0.027778,3,0.972222,105,0.083333,1,0.785714,0.916667,0.846154,0.830679,0.989198,0.842308,0.583333,0.046296,0.953704,0.416667,0.611429,0.583333,0.548164,0.533728,0.89946,0.594538,0.548164,0.583333,0.697,1.067,0.671875,1.03125,671.875,1031.25,558713,6854107,797467,58.333333,10.083333,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,2,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,72,48,0,60,40,0,0.555556,0.079839,0.282248,44.354961,94.082639,398.631371,26798.189795,-26399.558424,3.321928,223.318248,-219.99632,232.029304,1.933578,6984.778038,0.75,9,0.046296,5,0.953704,103,0.25,3,0.642857,0.75,0.692308,0.657621,0.867284,0.545547,0.6,0.044444,0.955556,0.4,0.664237,0.6,0.572544,0.563869,0.898958,0.591051,0.572544,0.6,0.458,0.825,0.3125,0.828125,312.5,828.125,558713,6854107,797467,60.833333,10.083333,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,3,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,76,44,0,63.333333,36.666667,0,0.592593,0.073333,0.270773,40.740739,90.257723,398.631371,26460.465578,-26061.834206,3.321928,220.50388,-217.181952,245.778402,2.048153,7398.667126,0.583333,7,0.027778,3,0.972222,105,0.416667,5,0.7,0.583333,0.636364,0.603023,0.780093,0.542593,0.633333,0.040741,0.959259,0.366667,0.677673,0.633333,0.624593,0.603081,0.889815,0.590293,0.624593,0.633333,0.239,0.727,0.234375,0.734375,234.375,734.375,558713,6854107,797467,63.333333,10,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,4,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,73,47,0,60.833333,39.166667,0,0.564815,0.078333,0.279879,43.518149,93.292837,398.631371,25522.733331,-25124.10196,3.321928,212.689444,-209.367516,235.357182,1.96131,7084.957147,0.916667,11,0.055556,6,0.944444,102,0.083333,1,0.647059,0.916667,0.758621,0.74083,0.952932,0.585417,0.608333,0.043519,0.956481,0.391667,0.691637,0.608333,0.583391,0.580577,0.906096,0.603716,0.583391,0.608333,0.252,0.728,0.25,0.71875,250,718.75,558713,6854107,797467,60.833333,10,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,5,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,67,53,0,55.833333,44.166667,0,0.509259,0.088333,0.296756,49.074074,98.918693,398.631371,30691.529868,-30292.898496,3.321928,255.762749,-252.440821,214.513018,1.787608,6457.4853,0.916667,11,0.046296,5,0.953704,103,0.083333,1,0.6875,0.916667,0.785714,0.768122,0.969907,0.706705,0.558333,0.049074,0.950926,0.441667,0.569873,0.558333,0.52147,0.500203,0.879051,0.557343,0.52147,0.558333,0.275,0.752,0.28125,0.734375,281.25,734.375,558713,6854107,797467,55.833333,10.083333,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,6,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,75,45,0,62.5,37.5,0,0.583333,0.075,0.273105,41.666667,91.034918,398.631371,30349.840212,-29951.208841,3.321928,252.915335,-249.593407,242.304468,2.019204,7294.091292,0.833333,10,0.074074,8,0.925926,100,0.166667,2,0.555556,0.833333,0.666667,0.637905,0.954475,0.594537,0.625,0.041667,0.958333,0.375,0.633378,0.625,0.591653,0.573188,0.883256,0.552791,0.591653,0.625,0.244,1.837,0.234375,0.890625,234.375,890.625,558713,6854107,797467,62.5,10.083333,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,7,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,74,46,0,61.666667,38.333333,0,0.574074,0.076626,0.276713,42.570173,92.237637,398.631371,20885.589232,-20486.95786,3.321928,174.046577,-170.724649,238.865742,1.990548,7190.575336,0.666667,8,0.027778,3,0.972222,105,0.333333,4,0.727273,0.666667,0.695652,0.66423,0.927469,0.66803,0.616667,0.042593,0.957407,0.383333,0.69584,0.616667,0.582996,0.584813,0.914545,0.629534,0.582996,0.616667,0.334,1.015,0.3125,0.828125,312.5,828.125,558713,6854107,797467,61.666667,10,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,8,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,66,54,0,55,45,0,0.5,0.089977,0.299215,49.987332,99.738193,398.631371,30379.21259,-29980.581218,3.321928,253.160105,-249.838177,211.669432,1.763912,6371.884806,0.5,6,0.046296,5,0.953704,103,0.5,6,0.545455,0.5,0.521739,0.471699,0.891975,0.475773,0.55,0.05,0.95,0.45,0.666683,0.55,0.5399,0.531666,0.880131,0.538577,0.5399,0.55,0.347,0.832,0.34375,0.78125,343.75,781.25,558713,6854107,797467,55.833333,10.166667,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,9,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,64,56,0,53.333333,46.666667,0,0.481481,0.093333,0.304925,51.851757,101.641512,398.631371,28474.595758,-28075.964387,3.321928,237.288298,-233.96637,204.091373,1.700761,6143.762519,0.75,9,0.037037,4,0.962963,104,0.25,3,0.692308,0.75,0.72,0.688186,0.92554,0.632921,0.533333,0.051852,0.948148,0.466667,?,0.533333,?,?,0.887539,0.581771,?,0.533333,0.345,0.903,0.34375,0.796875,343.75,796.875,558713,6854107,797467,53.333333,10.083333,?
+fashion_mnist_train-weka.filters.supervised.instance.Resample-B0.0-S1567573-Z2.0-no-replacement,1,10,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20180205.2009,1080,120,70,50,0,58.333333,41.666667,0,0.537037,0.083437,0.288686,46.354133,96.228799,398.631371,30390.414847,-29991.783476,3.321928,253.253457,-249.931529,224.841759,1.873681,6768.411365,1,12,0.027778,3,0.972222,105,0,0,0.8,1,0.888889,0.881917,0.984954,0.786905,0.583333,0.046296,0.953704,0.416667,0.627159,0.583333,0.558797,0.541658,0.877392,0.535946,0.558797,0.583333,0.293,0.783,0.28125,0.796875,281.25,796.875,558713,6854107,797467,58.333333,10.083333,?

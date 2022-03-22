@@ -1,0 +1,41 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 23
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       1/15/19 8:52 AM
+
+
+Dataset                   (1) functio | (2) funct (3) (4) funct (5) funct (6) funct (7) funct (8) funct (9) (10) func (11 (12) func (13) func (14) func (15) fun (16) func (17) func (18) func (19) func (20) func (21) func (22) func (23) func
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fashion_mnist_train-weka. (10)   9.92 |   23.67 v       14.00     24.67 v   39.67 v   52.25 v   45.75 v       79.33 v       27.25 v   43.50 v   10.00     9.92     12.17 v   74.67 v   76.67 v   80.67 v   80.42 v   22.25 v   82.75 v   80.92 v
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                              (v/ /*) |   (1/0 (0/0/0)  (0/1/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0 (0/0/0)  (1/0 (0/0/0)  (1/0/0)   (1/0/0)   (0/1/0)  (0/1/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)
+
+
+Key:
+(1) functions.MultilayerPerceptron '-L 0.001 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 1' -5990607817048210779
+(2) functions.MultilayerPerceptron '-L 0.01 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 1' -5990607817048210779
+(3) functions.MultilayerPerceptron '-L 0.1 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 1' -5990607817048210779
+(4) functions.MultilayerPerceptron '-L 0.5 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 1' -5990607817048210779
+(5) functions.MultilayerPerceptron '-L 0.5 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 2' -5990607817048210779
+(6) functions.MultilayerPerceptron '-L 0.5 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 5' -5990607817048210779
+(7) functions.MultilayerPerceptron '-L 0.5 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 10' -5990607817048210779
+(8) functions.MultilayerPerceptron '-L 0.5 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 20' -5990607817048210779
+(9) functions.MultilayerPerceptron '-L 0.1 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 20' -5990607817048210779
+(10) functions.MultilayerPerceptron '-L 0.1 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 10' -5990607817048210779
+(11) functions.MultilayerPerceptron '-L 0.1 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 5' -5990607817048210779
+(12) functions.MultilayerPerceptron '-L 0.1 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 2' -5990607817048210779
+(13) functions.MultilayerPerceptron '-L 0.01 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 2' -5990607817048210779
+(14) functions.MultilayerPerceptron '-L 0.001 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 2' -5990607817048210779
+(15) functions.MultilayerPerceptron '-L 1.0E-4 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 2' -5990607817048210779
+(16) functions.MultilayerPerceptron '-L 1.0E-4 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 5' -5990607817048210779
+(17) functions.MultilayerPerceptron '-L 0.001 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 5' -5990607817048210779
+(18) functions.MultilayerPerceptron '-L 0.01 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 5' -5990607817048210779
+(19) functions.MultilayerPerceptron '-L 0.01 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 10' -5990607817048210779
+(20) functions.MultilayerPerceptron '-L 0.001 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 10' -5990607817048210779
+(21) functions.MultilayerPerceptron '-L 1.0E-4 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 10' -5990607817048210779
+(22) functions.MultilayerPerceptron '-L 0.001 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 20' -5990607817048210779
+(23) functions.MultilayerPerceptron '-L 0.01 -M 0.8 -N 500 -V 0 -S 0 -E 20 -H 20' -5990607817048210779
+

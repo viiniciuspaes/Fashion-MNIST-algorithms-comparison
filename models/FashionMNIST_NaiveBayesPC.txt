@@ -1,0 +1,19 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 1
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       05/02/18 17:10
+
+
+Dataset                   (1) bayes.Naiv
+----------------------------------------
+fashion_mnist_train-weka. (10)   58.92 |
+----------------------------------------
+(v/ /*)                                |
+
+
+Key:
+(1) bayes.NaiveBayes '' 5995231201785697655
+
